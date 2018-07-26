@@ -28,4 +28,11 @@ describe 'loads file' do
 
     BitmapEditor.new.run"l-command.txt"
   end
+
+  it 'should change the values of a numerous pixels when \'V\' command is present' do
+    STDOUT.should_receive(:puts).with('O O O O O').exactly(3).times
+    STDOUT.should_receive(:puts).with('O H O O O').exactly(3).times
+
+    BitmapEditor.new.run"v-command.txt"
+  end
 end
