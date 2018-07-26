@@ -21,4 +21,11 @@ describe 'loads file' do
     STDOUT.should_receive(:puts).with('O O O O O').exactly(6).times
     BitmapEditor.new.run"s-command.txt"
   end
+
+  it 'should change the value of a specific pixel when \'L\' command is present' do
+    STDOUT.should_receive(:puts).with('O O O O O').exactly(5).times
+    STDOUT.should_receive(:puts).with('O O O H O').exactly(1).times
+
+    BitmapEditor.new.run"l-command.txt"
+  end
 end
