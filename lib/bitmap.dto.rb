@@ -8,6 +8,7 @@ class BitMap
 
   def clear
     raise 'Bitmap clear cannot clear an empty image' unless @current_image.length > 0
+    # create brand new image as initial value is the same
     initialize @current_image[0].length, @current_image.length
   end
 
@@ -43,6 +44,7 @@ class BitMap
   end
 
   def check_values_are_numeric(values, method)
+    # raise exception if incorrect parameter types to not get unreadable messages
     values.each {|i| raise "Bitmap #{method} given incorrect parameters" if !is_numeric(i)}
   end
 end

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231486db-4544-410e-9895-60d701a93388" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/c-command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/test_input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/errors-command.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bitmap_editor" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bitmap_editor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bitmap.dto.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bitmap.dto.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bitmap_editor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bitmap_editor.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/bitmap_dto_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/bitmap_dto_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,44 +18,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bitmap_editor_master@Unnamed.rcov" NAME="Unit test Coverage Results" MODIFIED="1532617687965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="bitmap_editor-master" />
-    <SUITE FILE_PATH="coverage/bitmap_editor_master@bitmap_editor.rcov" NAME="bitmap_editor Coverage Results" MODIFIED="1532607995106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="bitmap_editor-master" />
+    <SUITE FILE_PATH="coverage/bitmap_editor_master@Unnamed.rcov" NAME="Unit test Coverage Results" MODIFIED="1532619123452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="bitmap_editor-master" />
+    <SUITE FILE_PATH="coverage/bitmap_editor_master@bitmap_editor.rcov" NAME="bitmap_editor Coverage Results" MODIFIED="1532619119553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="bitmap_editor-master" />
     <SUITE FILE_PATH="coverage/bitmap_editor_master@My_behaviour__bitmap_editor_master.rcov" NAME="My behaviour: bitmap_editor-master Coverage Results" MODIFIED="1532605828585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bitmap_editor-master" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bitmap_editor" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/bitmap_editor">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bitmap_editor.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bitmap_editor.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/bitmap_editor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-49">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bitmap_editor_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="support.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/rspec-support-3.7.1/lib/rspec/support.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="505" selection-start-line="505" selection-end-line="505" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitmap_editor_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/bitmap_editor_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+            <state relative-caret-position="381">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="c-command.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/c-command.txt">
+      <file leaf-file-name="errors-command.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/errors-command.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -71,8 +81,8 @@
       <file leaf-file-name="bitmap_dto_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/bitmap_dto_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="159" column="64" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+            <state relative-caret-position="246">
+              <caret line="143" column="140" lean-forward="true" selection-start-line="143" selection-start-column="62" selection-end-line="143" selection-end-column="140" />
             </state>
           </provider>
         </entry>
@@ -80,8 +90,8 @@
       <file leaf-file-name="bitmap.dto.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bitmap.dto.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="172">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -102,17 +112,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/bitmap_editor" />
         <option value="$PROJECT_DIR$/spec/unrecognised-command.txt" />
         <option value="$PROJECT_DIR$/spec/s-command.txt" />
         <option value="$PROJECT_DIR$/spec/l-command.txt" />
         <option value="$PROJECT_DIR$/spec/v-command.txt" />
         <option value="$PROJECT_DIR$/spec/h-command" />
         <option value="$PROJECT_DIR$/spec/h-command.txt" />
-        <option value="$PROJECT_DIR$/lib/bitmap_editor.rb" />
-        <option value="$PROJECT_DIR$/lib/bitmap.dto.rb" />
         <option value="$PROJECT_DIR$/spec/bitmap_dto_spec.rb" />
         <option value="$PROJECT_DIR$/spec/c-command.txt" />
+        <option value="$PROJECT_DIR$/spec/test_input.txt" />
+        <option value="$PROJECT_DIR$/examples/test_input2.txt" />
+        <option value="$PROJECT_DIR$/bin/bitmap_editor" />
+        <option value="$PROJECT_DIR$/lib/bitmap.dto.rb" />
+        <option value="$PROJECT_DIR$/spec/errors-command.txt" />
+        <option value="$PROJECT_DIR$/lib/bitmap_editor.rb" />
         <option value="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" />
       </list>
     </option>
@@ -126,7 +139,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -281,7 +294,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532604420775</updated>
-      <workItem from="1532604422863" duration="13239000" />
+      <workItem from="1532604422863" duration="14544000" />
     </task>
     <task id="LOCAL-00001" summary="changes to run effectively via RubyMine">
       <created>1532605700192</created>
@@ -294,39 +307,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unit_test - 2018.07.26 at 15h 50m 05s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 16m 32s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 15h 50m 13s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 17m 01s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 01m 24s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 17m 42s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 02m 20s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 17m 58s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 02m 39s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 21m 35s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 04m 07s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 23m 11s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 04m 43s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 23m 30s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 05m 01s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 26m 29s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 05m 17s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 27m 21s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 16h 06m 21s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 16h 28m 37s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13239000" />
+    <option name="totallyTimeSpent" value="14544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -336,15 +349,15 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" weight="0.3995749" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895614" visible="true" weight="0.32624868" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895614" weight="0.32624868" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.3995749" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" visible="true" weight="0.3995749" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,7 +399,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/spec/bitmap_editor_spec.rb</url>
+          <line>70</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/bitmap_editor.rb</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -401,13 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bitmap_editor">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -439,31 +457,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/rspec-support-3.7.1/lib/rspec/support.rb">
+    <entry file="file://$PROJECT_DIR$/bin/bitmap_editor">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
+    <entry file="file://$PROJECT_DIR$/examples/show.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/c-command.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="501" selection-start-line="501" selection-end-line="501" />
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bitmap.dto.rb">
+    <entry file="file://$PROJECT_DIR$/spec/test_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/test_input2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/bitmap_dto_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="159" column="64" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+        <state relative-caret-position="246">
+          <caret line="143" column="140" lean-forward="true" selection-start-line="143" selection-start-column="62" selection-end-line="143" selection-end-column="140" />
         </state>
       </provider>
     </entry>
@@ -474,24 +502,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/c-command.txt">
+    <entry file="file://$PROJECT_DIR$/spec/errors-command.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bitmap_editor.rb">
+    <entry file="file://$PROJECT_DIR$/../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/rspec-support-3.7.1/lib/rspec/support.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="234">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="505" selection-start-line="505" selection-end-line="505" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/bitmap_editor_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        <state relative-caret-position="381">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bitmap.dto.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bitmap_editor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
