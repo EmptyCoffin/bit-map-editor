@@ -34,6 +34,40 @@ describe 'Bit Map' do
     end
   end
 
+  describe 'Colour Specific' do
+    before(:each) do
+      @image = BitMap.new '6', 5
+    end
+
+    it 'should throw exception with non number on row' do
+      expect { @image.colour_specific 'abc', 6, 'B' }.to raise_error('Bitmap colour_specific given incorrect parameters')
+    end
+
+    it 'should throw exception with non number on column' do
+      expect { @image.colour_specific 4, 'abc', 'B' }.to raise_error('Bitmap colour_specific given incorrect parameters')
+    end
+
+    it 'should throw exception with non number on row and column' do
+      expect { @image.colour_specific 'abc', 'abc', 'B' }.to raise_error('Bitmap colour_specific given incorrect parameters')
+    end
+
+    it 'should maintain original values if colour specific range out of range' do
+      @image = BitMap.new '1', 1
+      expect { @image.colour_specific '6', '5', 'B' }.to raise_error('Bitmap colour_specific given out of range values')
+    end
+
+    it 'should alter the value of specific pixel' do
+      STDOUT.should_receive(:puts).with('O O O O O O').exactly(5).times
+      @image.show_image
+
+      @image.colour_specific 2, 3, 'B'
+
+      STDOUT.should_receive(:puts).with('O O O O O O').exactly(4).times
+      STDOUT.should_receive(:puts).with('O B O O O O').exactly(1).times
+      @image.show_image
+    end
+  end
+
   describe 'Show' do
     it 'should put current image to console' do
       image = BitMap.new '4', '5'
