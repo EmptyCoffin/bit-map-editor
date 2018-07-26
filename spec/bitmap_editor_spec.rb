@@ -17,8 +17,8 @@ describe 'loads file' do
     BitmapEditor.new.run"unrecognised-command.txt"
   end
 
-  it 'should put \'There is no image\' when command \'S\' is present' do
-    STDOUT.should_receive(:puts).with('There is no image')
+  it 'should put correct number of \'O\' when command \'S\' is present' do
+    STDOUT.should_receive(:puts).with('O O O O O').exactly(6).times
     BitmapEditor.new.run"s-command.txt"
   end
 end

@@ -34,4 +34,12 @@ describe 'Bit Map' do
     end
   end
 
+  describe 'Show' do
+    it 'should put current image to console' do
+      image = BitMap.new '4', '5'
+      STDOUT.should_receive(:puts).with('O O O O').exactly(5).times
+      image.show_image
+    end
+  end
+
 end
