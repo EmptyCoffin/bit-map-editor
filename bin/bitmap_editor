@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require './lib/bitmap_editor.rb'
+require '../lib/bitmap_editor'
 
 BitmapEditor.new.run "../examples/show.txt"
