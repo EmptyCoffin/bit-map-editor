@@ -20,6 +20,14 @@ class BitMap
     end
   end
 
+  def colour_horizontal_segement(start_column, end_column, row, colour)
+    check_values_are_numeric([start_column, end_column, row], 'colour_horizontal_segement')
+    raise 'Bitmap colour_horizontal_segement given out of range values' if !start_column.to_i.between?(0, @current_image[0].length) || !end_column.to_i.between?(0, @current_image[0].length) || row.to_i > @current_image.length
+    (start_column.to_i..end_column.to_i).step(1) do |n|
+      @current_image[row.to_i - 1][n - 1] = colour
+    end
+  end
+
   def show_image
     @current_image.each{ |a| puts a.join(" ") }
   end

@@ -35,4 +35,11 @@ describe 'loads file' do
 
     BitmapEditor.new.run"v-command.txt"
   end
+
+  it 'should change the values of a numerous pixels when \'H\' command is present' do
+    STDOUT.should_receive(:puts).with('O O O O O').exactly(5).times
+    STDOUT.should_receive(:puts).with('O H H H O').exactly(1).times
+
+    BitmapEditor.new.run"h-command.txt"
+  end
 end
