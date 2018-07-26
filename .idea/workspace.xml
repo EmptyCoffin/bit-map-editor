@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231486db-4544-410e-9895-60d701a93388" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/l-command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bitmap.dto.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bitmap.dto.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bitmap_editor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bitmap_editor.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/bitmap_dto_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/bitmap_dto_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bitmap_editor_master@Unnamed.rcov" NAME="Unit test Coverage Results" MODIFIED="1532612761022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="bitmap_editor-master" />
+    <SUITE FILE_PATH="coverage/bitmap_editor_master@Unnamed.rcov" NAME="Unit test Coverage Results" MODIFIED="1532614257021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="bitmap_editor-master" />
     <SUITE FILE_PATH="coverage/bitmap_editor_master@bitmap_editor.rcov" NAME="bitmap_editor Coverage Results" MODIFIED="1532607995106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" MODULE_NAME="bitmap_editor-master" />
     <SUITE FILE_PATH="coverage/bitmap_editor_master@My_behaviour__bitmap_editor_master.rcov" NAME="My behaviour: bitmap_editor-master Coverage Results" MODIFIED="1532605828585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bitmap_editor-master" />
   </component>
@@ -35,26 +32,26 @@
       <file leaf-file-name="bitmap_editor.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bitmap_editor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bitmap_editor_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bitmap_editor_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/bitmap_editor_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+            <state relative-caret-position="272">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bitmap_dto_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bitmap_dto_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/bitmap_dto_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="263">
+              <caret line="103" column="64" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -62,8 +59,8 @@
       <file leaf-file-name="bitmap.dto.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bitmap.dto.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="283">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -114,11 +111,11 @@
         <option value="$PROJECT_DIR$/bin/bitmap_editor" />
         <option value="$PROJECT_DIR$/spec/unrecognised-command.txt" />
         <option value="$PROJECT_DIR$/spec/s-command.txt" />
+        <option value="$PROJECT_DIR$/spec/l-command.txt" />
+        <option value="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" />
         <option value="$PROJECT_DIR$/lib/bitmap_editor.rb" />
         <option value="$PROJECT_DIR$/lib/bitmap.dto.rb" />
         <option value="$PROJECT_DIR$/spec/bitmap_dto_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/l-command.txt" />
-        <option value="$PROJECT_DIR$/spec/bitmap_editor_spec.rb" />
       </list>
     </option>
   </component>
@@ -287,7 +284,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532604420775</updated>
-      <workItem from="1532604422863" duration="8328000" />
+      <workItem from="1532604422863" duration="9701000" />
     </task>
     <task id="LOCAL-00001" summary="changes to run effectively via RubyMine">
       <created>1532605700192</created>
@@ -300,39 +297,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unit_test - 2018.07.26 at 14h 33m 56s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 14h 54m 13s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 34m 08s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 14h 54m 32s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 36m 34s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 14h 54m 54s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 37m 45s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 03m 15s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 38m 10s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 04m 00s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 39m 01s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 05m 33s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 39m 15s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 05m 58s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 41m 36s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 07m 21s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 41m 56s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 07m 34s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unit_test - 2018.07.26 at 14h 45m 52s.xml">
+    <history-entry file="Unit_test - 2018.07.26 at 15h 08m 31s.xml">
       <configuration name="Unit test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8328000" />
+    <option name="totallyTimeSpent" value="9701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -410,31 +407,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bitmap.dto.rb">
+    <entry file="file://$PROJECT_DIR$/spec/bitmap_editor_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/bitmap_dto_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="272">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bitmap_editor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="238">
+          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/bitmap_editor_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/bitmap.dto.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        <state relative-caret-position="283">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/bitmap_dto_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="103" column="64" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
         </state>
       </provider>
     </entry>
