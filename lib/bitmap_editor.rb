@@ -17,6 +17,8 @@ class BitmapEditor
           current_image.colour_specific(command_info[1], command_info[2], command_info[3])
         when 'V'
           current_image.colour_vertical_segement(command_info[1], command_info[2], command_info[3], command_info[4])
+        when 'H'
+          current_image.colour_horizontal_segement(command_info[1], command_info[2], command_info[3], command_info[4])
         when 'S'
           current_image.show_image
         else
