@@ -1,3 +1,5 @@
+require '../lib/bitmap.dto'
+
 class BitmapEditor
 
   def run(file)
@@ -5,7 +7,10 @@ class BitmapEditor
 
     File.open(file).readlines.each do |line|
       command_info = line.split(' ')
+      current_image = nil
       case command_info[0]
+      when 'I'
+          current_image = BitMap.new(command_info[1], command_info[2])
       when 'S'
           puts "There is no image"
       else
