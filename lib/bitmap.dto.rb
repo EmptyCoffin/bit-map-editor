@@ -6,6 +6,11 @@ class BitMap
     @current_image = Array.new(height.to_i){ Array.new(width.to_i, 'O') }
   end
 
+  def clear
+    raise 'Bitmap clear cannot clear an empty image' unless @current_image.length > 0
+    initialize @current_image[0].length, @current_image.length
+  end
+
   def colour_specific(column, row, colour)
     check_values_are_numeric([column, row], 'colour_specific')
     raise 'Bitmap colour_specific given out of range values' if row.to_i > @current_image.length || column.to_i > @current_image[0].length

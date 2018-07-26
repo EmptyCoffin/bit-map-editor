@@ -42,4 +42,12 @@ describe 'loads file' do
 
     BitmapEditor.new.run"h-command.txt"
   end
+
+  it 'should change the values back to starting values when \'C\' is present' do
+    STDOUT.should_receive(:puts).with('O O O O O').exactly(11).times
+    STDOUT.should_receive(:puts).with('O H H H O').exactly(1).times
+
+    BitmapEditor.new.run"c-command.txt"
+  end
+
 end

@@ -11,6 +11,8 @@ class BitmapEditor
       command_info = line.split(' ')
 
       case command_info[0]
+        when 'C'
+          current_image.clear
         when 'I'
           current_image = BitMap.new(command_info[1], command_info[2])
         when 'L'

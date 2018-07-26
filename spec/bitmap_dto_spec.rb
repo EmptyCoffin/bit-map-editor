@@ -156,6 +156,33 @@ describe 'Bit Map' do
     end
   end
 
+  describe 'Clear' do
+    it 'should raise an exception if current image has no length' do
+      @image = BitMap.new '0', 0
+      STDOUT.should_not_receive(:puts)
+      @image.show_image
+
+      expect { @image.clear }.to raise_error('Bitmap clear cannot clear an empty image')
+    end
+
+    it 'should reset all pixels to \'O\'' do
+      @image = BitMap.new '6', 5
+      STDOUT.should_receive(:puts).with('O O O O O O').exactly(5).times
+      @image.show_image
+
+      @image.colour_horizontal_segement 2, 5, 3, 'B'
+
+      STDOUT.should_receive(:puts).with('O B B B B O').exactly(1).times
+      STDOUT.should_receive(:puts).with('O O O O O O').exactly(4).times
+      @image.show_image
+
+      @image.clear
+      STDOUT.should_receive(:puts).with('O B B B B O').exactly(0).times
+      STDOUT.should_receive(:puts).with('O O O O O O').exactly(5).times
+      @image.show_image
+    end
+  end
+
   describe 'Show' do
     it 'should put current image to console' do
       image = BitMap.new '4', '5'
